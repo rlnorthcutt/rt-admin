@@ -1,4 +1,4 @@
-rt-admin
+RT Admin
 ========
 
 Drupal 7 Admin Theme for developers
@@ -17,3 +17,7 @@ Drupal 7 Admin Theme for developers
  ==========
  1) logo link to site
  2) optional text/html in footer (slogan or link to support form, for example)
+ 
+ COMMENTS
+ ===========
+ http://realtidings.com/blog/12/May/07/better-drupal-admin-theme-rt-admin

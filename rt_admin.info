@@ -1,0 +1,17 @@
+;----------// Theme information
+  name        = Real Tidings Admin
+  description = This is a sub-theme of the default "Seven" sub-theme with RT style and increased useability.
+  version     = 7.x-1.0
+  core        = 7.x
+  engine      = phptemplate
+  base theme  = seven
+  screenshot  = screenshot.png
+  
+;----------// Scripts
+  scripts[] = js/rt-admin.js
+
+;----------// Style-sheets
+  stylesheets[all][] = css/rt-admin.css
+
+  ; Enable the custom stylesheet and get hacking!
+  ;stylesheets[all][] = css/custom.css

@@ -1,0 +1,16 @@
+#overlay-content { border-radius: 7px 0px 7px 7px;box-shadow: 0px 0px 20px #000;padding-bottom: 20px;}
+#branding {overflow: hidden;padding: 20px 20px 0 20px;position: relative;background-color: #222;}
+#branding h1.page-title {color: white;margin: 0;padding-bottom: 20px;font-size: 2em;font-weight: normal;float: left;}
+#branding div.breadcrumb {font-size: 1em;padding-top: 7px;float: right;color: #07F;margin-right:40px;}
+#page {background: url(../logo.png) no-repeat bottom right;padding-bottom:80px!important;}
+a {color: #07F;}
+
+div.messages, fieldset {border-radius:5px;}
+
+/* maintenance mode */
+body.in-maintenance #branding { margin:0px;padding:0px;background-color: #fff;}
+body.in-maintenance #sidebar-first {float: left;width: 180px;padding: 10px 20px;border: solid 2px #333;margin: 0px 20px;border-radius: 10px;}
+body.in-maintenance #squeeze {margin:20px;margin-left:260px;}
+body.in-maintenance #logo {margin-bottom: 0px;margin-left:65px;}
+body.in-maintenance a {color: #EA3;text-decoration: none;font-weight:bold;}
+body.in-maintenance #page-wrapper { margin: 0px 40px;}

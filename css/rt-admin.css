@@ -1,19 +1,30 @@
-#overlay-content { border-radius: 7px 0px 7px 7px;box-shadow: 0px 0px 20px #000;padding-bottom: 20px;}
-#branding {overflow: hidden;padding: 20px 20px 0 20px;position: relative;background-color: #222;}
-#branding h1.page-title {color: white;margin: 0;padding-bottom: 20px;font-size: 2em;font-weight: normal;float: left;}
-#branding div.breadcrumb {font-size: 12px;color: #07F;padding-bottom:20px;}
-#branding ul.primary {padding: 40px 0 5px 8px;}
+/* Header & branding */
+#branding {overflow: hidden;padding: 1em 2em 0 2em;position: relative;
+    background-color: #151515;}
+#branding div.breadcrumb {text-align: center;font-size: 0.9em;color: #07F;
+    padding-bottom: 0.7em;}
+#branding h1.page-title {color: white;margin: 0;padding-bottom: 0.7em;
+    font-size: 2em;font-weight: normal;display: inline-block;}
 a {color: #07F;}
 
+/* Messages */
 div.messages, fieldset {border-radius:5px;}
+#overlay-content { border-radius: 7px 0px 7px 7px;box-shadow: 0px 0px 20px #000;
+    padding-bottom: 2em;}
 
+/* Admin pages */
+.system-themes-list-disabled .theme-selector {width: 300px;float: none;
+    padding: 20px 20px 20px 0;display: inline-block;vertical-align: top;}
+
+/* Views ui*/
 .views-ui-dialog {border-radius: 10px 0px 10px 10px;}
 .views-ui-dialog #views-ajax-title {border-radius: 10px 0px 0px 0px;}
 .views-ui-dialog .form-buttons {border-radius: 0px 0px 10px 10px;}
 
-/* maintenance mode */
+/* Maintenance mode */
 body.in-maintenance #branding { margin:0px;padding:0px;background-color: #fff;}
-body.in-maintenance #sidebar-first {float: left;width: 180px;padding: 10px 20px;border: solid 2px #333;margin: 0px 20px;border-radius: 10px;}
+body.in-maintenance #sidebar-first {float: left;width: 180px;padding: 10px 20px;
+    border: solid 2px #333;margin: 0px 20px;border-radius: 10px;}
 body.in-maintenance #squeeze {margin:20px;margin-left:260px;}
 body.in-maintenance #logo {margin-bottom: 0px;margin-left:65px;}
 body.in-maintenance a {color: #EA3;text-decoration: none;font-weight:bold;}

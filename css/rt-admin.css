@@ -1,7 +1,7 @@
 /* Header & branding */
 #branding {overflow: hidden;padding: 1em 2em 0 2em;position: relative;
     background-color: #151515;}
-#branding div.breadcrumb {text-align: center;font-size: 0.9em;color: #07F;
+#branding div.breadcrumb {font-size: 0.9em;color: #07F;
     padding-bottom: 0.7em;}
 #branding h1.page-title {color: white;margin: 0;padding-bottom: 0.7em;
     font-size: 2em;font-weight: normal;display: inline-block;}
